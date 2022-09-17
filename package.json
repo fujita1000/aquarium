@@ -9,19 +9,26 @@
     "lint": "next lint --dir src"
   },
   "dependencies": {
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "@react-google-maps/api": "^2.12.2",
     "@sendgrid/mail": "^7.7.0",
     "dotenv": "^16.0.2",
+    "google-map-react": "^2.2.0",
     "gray-matter": "^4.0.3",
+    "gsap": "^3.11.1",
     "mailer": "^0.6.7",
     "next": "12.1.6",
     "node": "^16.17.0",
     "nodemailer": "^6.7.8",
+    "nprogress": "^0.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "recoil": "^0.7.5",
     "reset-css": "^5.0.1",
     "xoauth2": "^1.2.0"
   },
   "devDependencies": {
+    "@types/gsap": "^3.0.0",
     "@types/node": "^18.7.14",
     "@types/nodemailer": "^6.4.5",
     "@types/react": "^18.0.18",

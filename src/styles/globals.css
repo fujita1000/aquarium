@@ -1,18 +1,36 @@
 html,
 body {
+  height: 100vh;
+  color: white;
+  background: black;
+  text-transform: none;
   padding: 0;
   margin: 0;
   list-style-type: none;
   text-decoration: none;
   font-family: ＭＳ 明朝, 游明朝, Yu Mincho, YuMincho, Hiragino Mincho Pro, serif;
   overflow-x: hidden;
+
 }
 
 a {
-  color: inherit;
+  color: #fff;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+  user-select: none;
+}
+
+h2 * {
+  will-change: transform;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  visibility: hidden; 
 }

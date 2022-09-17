@@ -1,87 +1,35 @@
+////////////////
+/// 共通設定
+////////////////
+.container {
+  --text: #fff;
+  --footer: #000;
+  width: 100%;
+  box-sizing: content-box;
+  font-size: 16px;
+  overflow-x: hidden;
+  background-repeat: repeat-x;
+  margin: 0;
+}
 .footer{
-  width:75vw;
-  margin-left:25vw;
-  background-color: #ff4b4b;
- font-weight: bold;
-}
-.f_img{
+  position: fixed;
   display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  bottom: 0px;
   align-items: center;
-  justify-content: center;
+  padding: 0 1%;
+  width: 100%;
+  z-index: 3;
+  height: 7em;
+  font-size: clamp(0.66rem, 2vw, 1rem);
+  letter-spacing: 0.5em;
 }
-.f_nav{
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 20px;
-  font-size: 20px;
-  display: flex; 
-  padding: 30px;
-}
-.f_nav_item{
-  color: #000;
-  justify-content: end;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.f_nav_item2{
-  color: #000;
-  margin-left: auto;
-}
-@media only screen and (max-width: 1200px) {
-    .f_img {
-      height: 125px;
-      width: 125px;
-      margin: 0 auto;
-    }
-  
-    .f_nav {
-      padding-bottom: 20px;
-      font-size: 15px;
-      padding: 20px;
-    }
-  
-    .f_nav_item {
-      padding-left: 5px;
-      padding-right: 5px;
-    }
-}
-@media only screen and (max-width: 600px) {
-  .f_img {
-      height: 100px;
-      width: 100px;
-      margin: 0 auto;
-    }
-  
-    .f_nav {
-      padding-bottom: 20px;
-      font-size: 15px;
-      padding: 14px;
-      flex-wrap: wrap;
-      padding-top: 50px;
-    }
-  
-    .f_nav_item {
-      padding-left: 5px;
-      padding-right: 5px;
-    }
-    .f_nav_item2 {
-     margin: 0 auto;
-    }
-}
-@media only screen and (max-width: 425px) {
-  .footer {
-      width: 100%;
-      margin-left: 0vw;
-      background-color: #ff4b4b;
-      font-weight: bold;
-    }
-  .f_img {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding-top: 100px;
-    }
-  .f_nav {
-    padding-top: 80px;
-  }
-}
+
+
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 600px) {}
+
+@media only screen and (max-width: 425px) {}

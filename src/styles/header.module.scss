@@ -1,61 +1,52 @@
 ////////////////
+/// 共通設定
+////////////////
+.container {
+  --text: #fff;
+  --footer: #000;
+  height: 100%;
+  width: 100%;
+  box-sizing: content-box;
+  font-size: 16px;
+  overflow-x: hidden;
+  background-repeat: repeat-x;
+  margin: 0;
+    color: var(--text);
+    z-index: 999;
+    padding-top:5px ;
+}
+.container2{
+    width: 1000px;
+}
+////////////////
 /// header
 ////////////////
-.header {
-  width: 25vw;
-  position: fixed;
-  height: 100vw;
-  background-color:#4e4444;
-  text-align: center;
-  padding-top: 50px;
+.header{
+position: absolute;
+display: flex;
+justify-content: space-around;
+margin:  0 auto;
+height: 200px;
+width: 100%;
+align-items: center;
+padding: 0 1%;
+width: 100%;
+z-index: 3;
+height: 7em;
+font-size: clamp(0.66rem, 2vw, 1rem);
 }
-.nav {
-  font-size: 50px;
-  color: #fff;
-}
-
-.spNav {
-  display: none;
-}
-
-@media only screen and (max-width: 1200px) {
-  .header {
-      padding-top: 40px;
-    }
-  
-    .nav {
-      font-size: 40px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-  .header {
-      padding-top: 30px;
-    }
-  
-    .nav {
-      font-size: 25px;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-.header {
+.logo{
+    padding: 0px;
     width: 100%;
-    position: fixed;
-    height: 50px;
-    background-color: #4e4444;
-    padding-top: 13px;  
-    font-weight: bold;
-  }
-
-  .nav {
-    display: none;
-  }
-  .spNav {
-    display: flex;
-    color: #fff;  
-  }
-  .spNav_item{  
-     margin: 0 auto;
-  }
 }
+.title{
+font-size: 5vmax;
+width: 100%;
+padding-top: 30px;
+text-align: center;
+}
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 600px) {}
+
+@media only screen and (max-width: 425px) {}
