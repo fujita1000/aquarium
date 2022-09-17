@@ -25,6 +25,7 @@
     "react-dom": "18.2.0",
     "recoil": "^0.7.5",
     "reset-css": "^5.0.1",
+    "sass": "^1.54.9",
     "xoauth2": "^1.2.0"
   },
   "devDependencies": {
