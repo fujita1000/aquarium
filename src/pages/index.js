@@ -340,7 +340,7 @@ gsap.timeline({
   </div>
 </section>
 
-<section className={style.sixth} id="section">
+<section id="section">
   <div  className={style.outer} id="outer">
     <div  className={style.inner} id="inner">
       <div className={style.bg} id="bg">

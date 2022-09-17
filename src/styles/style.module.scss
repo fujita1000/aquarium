@@ -410,9 +410,6 @@ text-align: center;
 @media only screen and (max-width: 1200px) {
   
     .third {
-
-  
-  
       .box_p {
         padding-top: 20px;
         font-size: 3vmax;
@@ -496,9 +493,6 @@ text-align: center;
           }
   
           .more_box {
-            margin: 0 auto;
-            width: 100%;
-            border: solid 2px #fff;
             margin-top: 20px;
   
             p {
@@ -533,7 +527,6 @@ text-align: center;
       .span {
         width: 400px;
         height: 180px;
-        border: solid 1px #fff;
         position: relative;
       }
   
@@ -566,7 +559,6 @@ text-align: center;
       }
   
       .box {
-        border: solid #fff 3px;
         width: 48%;
         height: 80%;
         padding: 30px;
@@ -586,7 +578,6 @@ text-align: center;
       }
   
       .more_box {
-        width: 100%;
         margin-top: 10px;
   
         p {
@@ -612,13 +603,11 @@ text-align: center;
     .document {
       width: 100%;
       height: 100%;
-      border: 3px solid #fff;
       text-align: center;
       padding: 20px;
     }
 
     .h2 {
-      font-weight: bold;
       font-size: 4vmax;
       margin-right: -0.5em;
       color: rgb(255, 255, 255);
@@ -631,9 +620,7 @@ text-align: center;
     }
 
     .more_box {
-      margin: 0 auto;
-      width: 100%;
-      border: solid 2px #fff;
+
       margin-top: 5px;
 
       p {
@@ -706,9 +693,6 @@ text-align: center;
     }
 
     .more_box {
-      margin: 0 auto;
-      width: 100%;
-      border: solid 2px #fff;
       margin-top: 20px;
 
       p {
@@ -760,9 +744,6 @@ text-align: center;
     }
 
     .more_box {
-      margin: 0 auto;
-      width: 100%;
-      border: solid 2px #fff;
       margin-top: 40px;
 
       p {
@@ -842,7 +823,6 @@ text-align: center;
     .document {
       width: 100%;
       height: 100%;
-      border: 3px solid #fff;
       text-align: center;
       padding: 20px;
     }
@@ -874,21 +854,6 @@ text-align: center;
 
     .more_box:hover {
       background-color: rgb(0, 0, 0);
-    }
-
-    .footer {
-      position: fixed;
-      display: flex;
-      justify-content: space-around;
-      margin: 0 auto;
-      bottom: 0px;
-      align-items: center;
-      padding: 0 1%;
-      width: 100%;
-      z-index: 3;
-      height: 7em;
-      font-size: clamp(0.66rem, 2vw, 1rem);
-      letter-spacing: 0.5em;
     }
   }
 
@@ -941,9 +906,6 @@ text-align: center;
     }
 
     .more_box {
-      margin: 0 auto;
-      width: 100%;
-      border: solid 2px #fff;
       margin-top: 5px;
 
       p {
@@ -1181,9 +1143,6 @@ text-align: center;
     }
 
     .more_box {
-      margin: 0 auto;
-      width: 100%;
-      border: solid 2px #fff;
       margin-top: 10px;
 
       p {

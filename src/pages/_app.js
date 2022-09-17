@@ -1,6 +1,5 @@
 import 'reset-css';
 import '../styles/globals.css'
-import Layout from '../components/layout'
 import Head from 'next/head'
 
 
@@ -19,9 +18,7 @@ return (
       <meta name="keywords" content="ホームページ 仙台NEXT水族館" />
       <meta name="google" content="nositelinkssearchbox" />
       </Head>
-    <Layout>
       <Component {...pageProps} />
-    </Layout>
     </>
   )
 
